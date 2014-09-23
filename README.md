@@ -1,9 +1,9 @@
 # PNM-Viewer #
 
-A simple image viewer for Netpbm format files for OS X.
+A simple viewer for Netpbm formatted image files for OS X.
 
-I wrote this because the OS doesn't natively support these files and third party programs (including Photoshop)
-don't display these properly.
+I wrote this because OS X doesn't natively support these files formats
+and third party programs (including Photoshop) don't display them properly.
 
 
 ## Supported File Formats ##
@@ -14,7 +14,8 @@ don't display these properly.
   - Any of the above with the .pnm file extension
 
   
-### Future ###
+## Future Features ##
 
-  - ASCII versions of the above
-  - .pam
+  - Support ASCII versions of the above
+  - Support .pam files
+  - Quicklook plugin bundled in the App 
