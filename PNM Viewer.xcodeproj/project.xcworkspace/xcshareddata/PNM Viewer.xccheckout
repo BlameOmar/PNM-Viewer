@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D6ACF255-868D-4A68-8934-286BB34A465D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PNM Viewer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5E9046F1C0C81C904B245DEA90339CA1870E0269</key>
+		<string>github.com:CodeOmar/PNM-Viewer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PNM Viewer.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5E9046F1C0C81C904B245DEA90339CA1870E0269</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:CodeOmar/PNM-Viewer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5E9046F1C0C81C904B245DEA90339CA1870E0269</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5E9046F1C0C81C904B245DEA90339CA1870E0269</string>
+			<key>IDESourceControlWCCName</key>
+			<string>pnm-quicklook</string>
+		</dict>
+	</array>
+</dict>
+</plist>
