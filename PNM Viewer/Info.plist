@@ -14,7 +14,7 @@
 			<key>CFBundleTypeIconFile</key>
 			<string></string>
 			<key>CFBundleTypeName</key>
-			<string>Portable Any Map</string>
+			<string>Portable Any Map Image</string>
 			<key>CFBundleTypeOSTypes</key>
 			<array>
 				<string>????</string>
@@ -22,7 +22,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Viewer</string>
 			<key>NSDocumentClass</key>
-			<string>Document</string>
+			<string>NetPBMImageDocument</string>
 		</dict>
 		<dict>
 			<key>CFBundleTypeExtensions</key>
@@ -30,11 +30,11 @@
 				<string>pbm</string>
 			</array>
 			<key>CFBundleTypeName</key>
-			<string>Portable Bit Map</string>
+			<string>Portable Bit Map Image</string>
 			<key>CFBundleTypeRole</key>
 			<string>Viewer</string>
 			<key>NSDocumentClass</key>
-			<string>Document</string>
+			<string>NetPBMImageDocument</string>
 		</dict>
 		<dict>
 			<key>CFBundleTypeExtensions</key>
@@ -42,11 +42,11 @@
 				<string>pgm</string>
 			</array>
 			<key>CFBundleTypeName</key>
-			<string>Portable Gray Map</string>
+			<string>Portable Gray Map Image</string>
 			<key>CFBundleTypeRole</key>
 			<string>Viewer</string>
 			<key>NSDocumentClass</key>
-			<string>Document</string>
+			<string>NetPBMImageDocument</string>
 		</dict>
 		<dict>
 			<key>CFBundleTypeExtensions</key>
@@ -54,11 +54,11 @@
 				<string>ppm</string>
 			</array>
 			<key>CFBundleTypeName</key>
-			<string>Portable Pixel Map</string>
+			<string>Portable Pixel Map Image</string>
 			<key>CFBundleTypeRole</key>
 			<string>Viewer</string>
 			<key>NSDocumentClass</key>
-			<string>Document</string>
+			<string>NetPBMImageDocument</string>
 		</dict>
 		<dict>
 			<key>CFBundleTypeExtensions</key>
@@ -66,11 +66,11 @@
 				<string>pam</string>
 			</array>
 			<key>CFBundleTypeName</key>
-			<string>Portable Arbitrary Map</string>
+			<string>Portable Arbitrary Map Image</string>
 			<key>CFBundleTypeRole</key>
 			<string>Viewer</string>
 			<key>NSDocumentClass</key>
-			<string>Document</string>
+			<string>NetPBMImageDocument</string>
 		</dict>
 	</array>
 	<key>CFBundleExecutable</key>
@@ -86,11 +86,11 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.5</string>
+	<string>0.6.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>2</string>
+	<string>4</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
 	<key>NSHumanReadableCopyright</key>
@@ -99,5 +99,118 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>UTImportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.image</string>
+				<string>public.data</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>Portable Any Map Image</string>
+			<key>UTTypeIdentifier</key>
+			<string>netpbm.pnm</string>
+			<key>UTTypeReferenceURL</key>
+			<string>http://netpbm.sourceforge.net/doc/pnm.html</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>pnm</string>
+				</array>
+				<key>public.mime-type</key>
+				<string>image/x‑portable‑anymap</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.image</string>
+				<string>public.data</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>Portable Bit Map Image</string>
+			<key>UTTypeIdentifier</key>
+			<string>netpbm.pbm</string>
+			<key>UTTypeReferenceURL</key>
+			<string>http://netpbm.sourceforge.net/doc/pbm.html</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>pbm</string>
+				</array>
+				<key>public.mime-type</key>
+				<string>image/x‑portable‑bitmap</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.image</string>
+				<string>public.data</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>Portable Gray Map Image</string>
+			<key>UTTypeIdentifier</key>
+			<string>netpbm.pgm</string>
+			<key>UTTypeReferenceURL</key>
+			<string>http://netpbm.sourceforge.net/doc/pgm.html</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>pgm</string>
+				</array>
+				<key>public.mime-type</key>
+				<string>image/x‑portable‑graymap</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.image</string>
+				<string>public.data</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>Portable Pixel Map Image</string>
+			<key>UTTypeIdentifier</key>
+			<string>netpbm.ppm</string>
+			<key>UTTypeReferenceURL</key>
+			<string>http://netpbm.sourceforge.net/doc/ppm.html</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>ppm</string>
+				</array>
+				<key>public.mime-type</key>
+				<string>image/x‑portable‑pixmap</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.image</string>
+				<string>public.data</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>Portable Arbitrary Map Image</string>
+			<key>UTTypeIdentifier</key>
+			<string>netpbm.pam</string>
+			<key>UTTypeReferenceURL</key>
+			<string>http://netpbm.sourceforge.net/doc/pam.html</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>pam</string>
+				</array>
+				<key>public.mime-type</key>
+				<string>image/x-portable-arbitrarymap</string>
+			</dict>
+		</dict>
+	</array>
 </dict>
 </plist>

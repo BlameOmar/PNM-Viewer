@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6246"/>
     </dependencies>
     <objects>
-        <customObject id="-2" userLabel="File's Owner" customClass="Document">
+        <customObject id="-2" userLabel="File's Owner" customClass="NetPBMImageDocument">
             <connections>
                 <outlet property="imageView" destination="scf-QB-Zni" id="XBF-tg-FiL"/>
                 <outlet property="window" destination="xOd-HO-29H" id="JIz-fz-R2o"/>

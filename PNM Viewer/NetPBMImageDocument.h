@@ -8,10 +8,9 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface Document : NSDocument
+@interface NetPBMImageDocument : NSDocument
 
 @property NSImage *image;
 @property IBOutlet NSImageView *imageView;
 
 @end
-

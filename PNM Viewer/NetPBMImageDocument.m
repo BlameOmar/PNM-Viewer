@@ -6,14 +6,14 @@
 //  Copyright (c) 2014 Omar Evans. All rights reserved.
 //
 
-#import "Document.h"
+#import "NetPBMImageDocument.h"
 #import "pnm.h"
 
-@interface Document ()
+@interface NetPBMImageDocument ()
 
 @end
 
-@implementation Document
+@implementation NetPBMImageDocument
 
 - (instancetype)init {
     self = [super init];
@@ -38,7 +38,7 @@
 - (NSString *)windowNibName {
     // Override returning the nib file name of the document
     // If you need to use a subclass of NSWindowController or if your document supports multiple NSWindowControllers, you should remove this method and override -makeWindowControllers instead.
-    return @"Document";
+    return @"NetPBMImageDocument";
 }
 
 - (NSData *)dataOfType:(NSString *)typeName error:(NSError **)outError {

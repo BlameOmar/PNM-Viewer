@@ -10,15 +10,16 @@
 		0719F51B19D0F874007FB90D /* pnm.m in Sources */ = {isa = PBXBuildFile; fileRef = 0719F4F619D0BE52007FB90D /* pnm.m */; };
 		0719F52919D22118007FB90D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0719F52819D22118007FB90D /* AppDelegate.m */; };
 		0719F52B19D22118007FB90D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0719F52A19D22118007FB90D /* main.m */; };
-		0719F52E19D22118007FB90D /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 0719F52D19D22118007FB90D /* Document.m */; };
-		0719F53119D22118007FB90D /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0719F52F19D22118007FB90D /* Document.xib */; };
+		0719F52E19D22118007FB90D /* NetPBMImageDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 0719F52D19D22118007FB90D /* NetPBMImageDocument.m */; };
+		0719F53119D22118007FB90D /* NetPBMImageDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0719F52F19D22118007FB90D /* NetPBMImageDocument.xib */; };
 		0719F53319D22118007FB90D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0719F53219D22118007FB90D /* Images.xcassets */; };
 		0719F53619D22118007FB90D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0719F53419D22118007FB90D /* MainMenu.xib */; };
 		0719F54219D22118007FB90D /* PNM_ViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0719F54119D22118007FB90D /* PNM_ViewerTests.m */; };
 		0719F54919D2217D007FB90D /* pnm.m in Sources */ = {isa = PBXBuildFile; fileRef = 0719F4F619D0BE52007FB90D /* pnm.m */; };
-		0764CBFF19D065F400CC2556 /* GenerateThumbnailForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 0764CBFE19D065F400CC2556 /* GenerateThumbnailForURL.c */; };
-		0764CC0119D065F400CC2556 /* GeneratePreviewForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 0764CC0019D065F400CC2556 /* GeneratePreviewForURL.c */; };
+		0764CBFF19D065F400CC2556 /* GenerateThumbnailForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 0764CBFE19D065F400CC2556 /* GenerateThumbnailForURL.m */; };
+		0764CC0119D065F400CC2556 /* GeneratePreviewForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 0764CC0019D065F400CC2556 /* GeneratePreviewForURL.m */; };
 		0764CC0319D065F400CC2556 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0764CC0219D065F400CC2556 /* main.c */; };
+		079B701D19D3359B00AAE7BC /* NetPBMImageDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 0719F52D19D22118007FB90D /* NetPBMImageDocument.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,8 +33,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0719F4EA19D0B69E007FB90D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0719F4EB19D0B69E007FB90D /* PNM_ViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PNM_ViewerTests.swift; sourceTree = "<group>"; };
 		0719F4F619D0BE52007FB90D /* pnm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pnm.m; sourceTree = "<group>"; };
 		0719F4F819D0CDFC007FB90D /* pnm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pnm.h; sourceTree = "<group>"; };
 		0719F52319D22118007FB90D /* PNM Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PNM Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,9 +40,9 @@
 		0719F52719D22118007FB90D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0719F52819D22118007FB90D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0719F52A19D22118007FB90D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0719F52C19D22118007FB90D /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
-		0719F52D19D22118007FB90D /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
-		0719F53019D22118007FB90D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		0719F52C19D22118007FB90D /* NetPBMImageDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetPBMImageDocument.h; sourceTree = "<group>"; };
+		0719F52D19D22118007FB90D /* NetPBMImageDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetPBMImageDocument.m; sourceTree = "<group>"; };
+		0719F53019D22118007FB90D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/NetPBMImageDocument.xib; sourceTree = "<group>"; };
 		0719F53219D22118007FB90D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0719F53519D22118007FB90D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		0719F53B19D22118007FB90D /* PNM ViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PNM ViewerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,8 +50,8 @@
 		0719F54119D22118007FB90D /* PNM_ViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNM_ViewerTests.m; sourceTree = "<group>"; };
 		0764CBF919D065F400CC2556 /* pnm-quicklook.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pnm-quicklook.qlgenerator"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0764CBFD19D065F400CC2556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0764CBFE19D065F400CC2556 /* GenerateThumbnailForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GenerateThumbnailForURL.c; sourceTree = "<group>"; };
-		0764CC0019D065F400CC2556 /* GeneratePreviewForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GeneratePreviewForURL.c; sourceTree = "<group>"; };
+		0764CBFE19D065F400CC2556 /* GenerateThumbnailForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateThumbnailForURL.m; sourceTree = "<group>"; };
+		0764CC0019D065F400CC2556 /* GeneratePreviewForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneratePreviewForURL.m; sourceTree = "<group>"; };
 		0764CC0219D065F400CC2556 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		07E86A2419D227FE00E80FCD /* PNM Viewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "PNM Viewer.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,23 +81,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0719F4E819D0B69E007FB90D /* PNM ViewerTests */ = {
-			isa = PBXGroup;
-			children = (
-				0719F4EB19D0B69E007FB90D /* PNM_ViewerTests.swift */,
-				0719F4E919D0B69E007FB90D /* Supporting Files */,
-			);
-			path = "PNM ViewerTests";
-			sourceTree = "<group>";
-		};
-		0719F4E919D0B69E007FB90D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0719F4EA19D0B69E007FB90D /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		0719F4F519D0BDD0007FB90D /* libpnm */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,9 +96,9 @@
 				07E86A2419D227FE00E80FCD /* PNM Viewer.entitlements */,
 				0719F52719D22118007FB90D /* AppDelegate.h */,
 				0719F52819D22118007FB90D /* AppDelegate.m */,
-				0719F52C19D22118007FB90D /* Document.h */,
-				0719F52D19D22118007FB90D /* Document.m */,
-				0719F52F19D22118007FB90D /* Document.xib */,
+				0719F52C19D22118007FB90D /* NetPBMImageDocument.h */,
+				0719F52D19D22118007FB90D /* NetPBMImageDocument.m */,
+				0719F52F19D22118007FB90D /* NetPBMImageDocument.xib */,
 				0719F53219D22118007FB90D /* Images.xcassets */,
 				0719F53419D22118007FB90D /* MainMenu.xib */,
 				0719F52519D22118007FB90D /* Supporting Files */,
@@ -155,7 +137,6 @@
 			children = (
 				0719F4F519D0BDD0007FB90D /* libpnm */,
 				0764CBFB19D065F400CC2556 /* pnm-quicklook */,
-				0719F4E819D0B69E007FB90D /* PNM ViewerTests */,
 				0719F52419D22118007FB90D /* PNM Viewer */,
 				0719F53E19D22118007FB90D /* PNM ViewerTests */,
 				0764CBFA19D065F400CC2556 /* Products */,
@@ -175,8 +156,8 @@
 		0764CBFB19D065F400CC2556 /* pnm-quicklook */ = {
 			isa = PBXGroup;
 			children = (
-				0764CBFE19D065F400CC2556 /* GenerateThumbnailForURL.c */,
-				0764CC0019D065F400CC2556 /* GeneratePreviewForURL.c */,
+				0764CBFE19D065F400CC2556 /* GenerateThumbnailForURL.m */,
+				0764CC0019D065F400CC2556 /* GeneratePreviewForURL.m */,
 				0764CC0219D065F400CC2556 /* main.c */,
 				0764CBFC19D065F400CC2556 /* Supporting Files */,
 			);
@@ -287,7 +268,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0764CBF319D065F400CC2556 /* Build configuration list for PBXProject "pnm-quicklook" */;
+			buildConfigurationList = 0764CBF319D065F400CC2556 /* Build configuration list for PBXProject "PNM Viewer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -312,7 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0719F53119D22118007FB90D /* Document.xib in Resources */,
+				0719F53119D22118007FB90D /* NetPBMImageDocument.xib in Resources */,
 				0719F53319D22118007FB90D /* Images.xcassets in Resources */,
 				0719F53619D22118007FB90D /* MainMenu.xib in Resources */,
 			);
@@ -339,7 +320,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0719F52E19D22118007FB90D /* Document.m in Sources */,
+				0719F52E19D22118007FB90D /* NetPBMImageDocument.m in Sources */,
 				0719F52B19D22118007FB90D /* main.m in Sources */,
 				0719F52919D22118007FB90D /* AppDelegate.m in Sources */,
 				0719F54919D2217D007FB90D /* pnm.m in Sources */,
@@ -358,8 +339,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0764CBFF19D065F400CC2556 /* GenerateThumbnailForURL.c in Sources */,
-				0764CC0119D065F400CC2556 /* GeneratePreviewForURL.c in Sources */,
+				0764CBFF19D065F400CC2556 /* GenerateThumbnailForURL.m in Sources */,
+				0764CC0119D065F400CC2556 /* GeneratePreviewForURL.m in Sources */,
+				079B701D19D3359B00AAE7BC /* NetPBMImageDocument.m in Sources */,
 				0764CC0319D065F400CC2556 /* main.c in Sources */,
 				0719F51B19D0F874007FB90D /* pnm.m in Sources */,
 			);
@@ -376,12 +358,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0719F52F19D22118007FB90D /* Document.xib */ = {
+		0719F52F19D22118007FB90D /* NetPBMImageDocument.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0719F53019D22118007FB90D /* Base */,
 			);
-			name = Document.xib;
+			name = NetPBMImageDocument.xib;
 			sourceTree = "<group>";
 		};
 		0719F53419D22118007FB90D /* MainMenu.xib */ = {
@@ -582,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0764CBF319D065F400CC2556 /* Build configuration list for PBXProject "pnm-quicklook" */ = {
+		0764CBF319D065F400CC2556 /* Build configuration list for PBXProject "PNM Viewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0764CC0419D065F400CC2556 /* Debug */,

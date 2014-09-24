@@ -139,8 +139,8 @@ static NSBitmapImageRep * load_pnm_bitmap_data(NSData * data) {
                                     hasAlpha:info.hasAlpha
                                     isPlanar:info.isPlanar
                                     colorSpaceName:colorSpaceName
-                                    bytesPerRow:0
-                                    bitsPerPixel:0];
+                                    bytesPerRow:info.width * info.samplesPerPixel * (info.bitsPerSample >> 3)
+                                    bitsPerPixel:info.samplesPerPixel * info.bitsPerSample];
 
     unsigned char * bitmapData = bitMapRep.bitmapData;
 
